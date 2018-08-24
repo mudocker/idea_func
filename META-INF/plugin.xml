@@ -1,0 +1,17 @@
+<idea-plugin>
+    <id>com.hao.patch</id>
+    <name>Do Patch</name>
+    <version>2.0</version>
+    <vendor email="haoyx@live.cn">r.hao</vendor>
+
+    <idea-version since-build="145.0"/>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow canCloseContents="true" anchor="right"
+                    id="Jstructure" icon="HaoIcons.Jstructure"
+                    factoryClass="com.hao.tools.ToolFactoryCompute" order="last" secondary="false">
+        </toolWindow>
+    </extensions>
+    <actions>
+    </actions>
+</idea-plugin>
